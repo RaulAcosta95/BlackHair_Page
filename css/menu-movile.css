@@ -1,0 +1,48 @@
+
+@media (min-width: 768px){
+    .menu-movile{
+        display: none;
+    }
+}
+@media (min-width: 0px) and (max-width: 768px){
+    .menu-movile{
+        display: block;
+        width: 100vw;
+        align-items: center;
+    }
+    .contenedor-boton-menu-movile{
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+        width: 100vw;
+    
+    }
+    .menu-movile-seccion-logo{
+        margin-left: 10px;
+    }
+    .icon-menu-hamburguesa{
+        margin: 5px;
+        width: 45px;
+        height: 45px;
+        background-image: url('../images/menu/menu-hamburguesa.svg');
+        background-color: rgb(242, 242, 245);
+        background-size: cover;
+        border: 0;
+    }
+    
+    .menu-movile-item{
+        text-align: center;
+        display: block;
+        width: 100vw;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-decoration: none;
+        color: black;
+        transition: 0.5s;
+    }
+    .menu-movile-item:hover{
+        background-color: rgb(55, 54, 54);
+        color: white;
+        transition: 0.5s;
+    }
+}

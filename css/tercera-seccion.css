@@ -1,0 +1,85 @@
+
+
+.tercera-seccion .tercera-seccion-titulo,.tercera-seccion .tercera-seccion-texto{
+    width: 95vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tercera-seccion .nuestros{
+    float: left;
+    font-weight: bold;
+}
+
+.texto-tercera-seccion{
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 80vw;
+}
+
+
+
+@media (min-width: 768px){
+    .tercera-seccion .carrusel-movile{
+        display: none;
+    }
+    .tercera-seccion .carousel-item img{
+        width: 25%;
+        margin: 10px;
+        border-radius: 200px 200px 200px 200px;
+        -moz-border-radius: 200px 200px 200px 200px;
+        -webkit-border-radius: 200px 200px 200px 200px;
+        border: 0px solid #000000;
+        transition: 0.5s;
+    }
+    .tercera-seccion .carousel-item img:hover{
+        border-radius: 4px 4px 4px 4px;
+        -moz-border-radius: 4px 4px 4px 4px;
+        -webkit-border-radius: 4px 4px 4px 4px;
+        border: 0px solid #000000;
+    }
+
+    .tercera-seccion .carrusel-desktop{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .tercera-seccion .segundo-carousel{
+        width: 90vw;
+    }
+    .tercera-seccion .carousel-item div{
+        display: flex;
+        justify-content: center;
+    }
+    .tercera-seccion .carousel-control-prev-icon,.tercera-seccion .carousel-control-next-icon{
+        background-color: rgb(49, 49, 49);
+    }
+}
+@media (min-width: 0px) and (max-width: 768px){
+    .tercera-seccion .carrusel-desktop{
+        display: none;
+    }
+    .tercera-seccion .carrusel-movile{
+        display: block;
+    }
+    .tercera-seccion .carousel-item img{
+        width: 90vw;
+        margin: 10px;
+    }
+    .tercera-seccion .carrusel-movile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .tercera-seccion .segundo-carousel{
+        width: 90vw;
+    }
+    .tercera-seccion .carousel-item div{
+        display: flex;
+        justify-content: center;
+    }
+    .tercera-seccion .carousel-control-prev-icon,.tercera-seccion .carousel-control-next-icon{
+        background-color: rgb(49, 49, 49);
+    }
+}

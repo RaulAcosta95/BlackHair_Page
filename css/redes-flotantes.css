@@ -1,0 +1,11 @@
+.redes-flotantes{
+    position: fixed;
+    right: 20px;
+    bottom:100px;
+    z-index: 4;
+}
+.redes-flotantes img{
+    display: block;
+    margin-top: 10px;
+    height: 40px;
+}

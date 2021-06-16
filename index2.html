@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio 2</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        .row>* {
+            padding: 0!important;
+        }
+        body{
+            background-color: rgb(242, 242, 245)!important;
+        }
+        button{
+            background-color: white;
+        }
+    </style>
+    <link rel="stylesheet" href="./css/menu-movile.css">
+    <link rel="stylesheet" href="./css/menu-desktop.css">
+    <link rel="stylesheet" href="./css/redes-flotantes.css">
+    <link rel="stylesheet" href="./css/primera-seccion.css">
+    <link rel="stylesheet" href="./css/segunda-seccion.css">
+    <link rel="stylesheet" href="./css/font-styles.css">
+    <link rel="stylesheet" href="./css/tercera-seccion.css">
+    <link rel="stylesheet" href="./css/cuarta-seccion.css">
+    <link rel="stylesheet" href="./css/quinta-seccion.css">
+    <link rel="stylesheet" href="./css/formulario.css">
+    <link rel="stylesheet" href="./css/pluggins.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/interseccion-observer.css">
+    <!-- Estilos Letra -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- Facebook Plugin -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v11.0" nonce="AoO7cTaP"></script>
+</head>
+<body>
+    <header>
+        
+        <nav class="menu-movile"> 
+            <div class="contenedor-boton-menu-movile">
+                <div class="menu-movile-seccion-logo">
+                    <img src="./images/logo.png" alt="">
+                </div>
+                <button  class="icon-menu-hamburguesa">
+                </button>
+
+            </div>
+                <a href="#primera" class="menu-movile-item">Inicio</a>
+                <a href="#segunda" class="menu-movile-item">Nosotros</a>
+                <a href="#tercera" class="menu-movile-item">Servicios</a>
+                <a href="#cuarta" class="menu-movile-item">Animación</a>
+                <a href="#quinta" class="menu-movile-item">Contacto</a>
+        </nav>
+
+        <div class="menu-desktop">
+            <div class="menu-desktop-seccion-logo">
+                <img src="./images/logo.png" alt="Logo Menu Black Hair">
+            </div>
+            <div class="menu-desktop-seccion-enlaces">
+                <a href="#primera">Inicio</a>
+                <a href="#segunda">Nosotros</a>
+                <a href="#tercera">Servcios</a>
+                <a href="#cuarta">Animación</a>
+                <a href="#quinta">Contacto</a>
+            </div>
+        </div>
+
+    </header>
+    <section>
+
+        <article class="redes-flotantes">
+            <img src="./images/redes-flotantes/instagram.svg" alt="">
+            <img src="./images/redes-flotantes/logotipo-circular-de-facebook.svg" alt="">
+            <img src="./images/redes-flotantes/whatsapp.svg" alt="">
+        </article>
+
+        <article class="primera-seccion">
+            <div class="carrusel-imagenes-1">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./images/primera-seccion/16.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./images/primera-seccion/20180706210902-san-francisco.jpeg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./images/primera-seccion/desarrolloweb.png" class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </article>
+
+        <article id="primera" class="segunda-seccion"> 
+            <div class="cuadro-blanco-seccion-2">
+                <img src="./images/logo.png" alt="">
+            </div>
+            <div class="texto-seccion-2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia tempore facere aut minus nemo temporibus eius ut assumenda fuga recusandae optio libero doloribus deserunt, harum impedit quaerat repudiandae, nisi ad?</p>
+            </div>
+        </article>
+
+<br><br><br>
+
+        <article id="segunda" class="tercera-seccion">
+            <div class="tercera-seccion-titulo">
+                <h2 class="nuestros">Nuestros</h2> <h2 class="expertos">Expertos</h2> <br>
+            </div>
+            <div class="tercera-seccion-texto">
+                <p class="texto-tercera-seccion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam cum doloremque quisquam, impedit dolores fuga nulla modi asperiores, corporis provident sequi quis velit beatae voluptate ipsa consequuntur nisi?Lorem ipsum dolor, sit amet consectetur adipisicing fuga. </p>
+            </div>
+            <div class="carrusel-desktop">
+                <div id="carouselExampleInterval" class="segundo-carousel carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="10000">
+                          <div>
+                              <img src="./images/tercera-seccion/carousel1.jpeg" class="d-block" alt="...">
+                              <img src="./images/tercera-seccion/carousel2.jpg" class="d-block" alt="...">
+                              <img src="./images/tercera-seccion/carousel3.jpg" class="d-block" alt="...">
+                          </div>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                          <div>
+                              <img src="./images/tercera-seccion/woman-barber-chair-hairdressing-chair-black.jpg" class="d-block" alt="...">
+                              <img src="./images/tercera-seccion/carousel2.jpg" class="d-block" alt="...">
+                              <img src="./images/tercera-seccion/carousel1.jpeg" class="d-block" alt="...">
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                          <div>
+                            <img src="./images/tercera-seccion/carousel3.jpg" class="d-block" alt="...">
+                            <img src="./images/tercera-seccion/woman-barber-chair-hairdressing-chair-black.jpg" class="d-block" alt="...">
+                            <img src="./images/tercera-seccion/carousel2.jpg" class="d-block" alt="...">
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="carrusel-movile">
+                <div id="carouselExampleInterval" class="segundo-carousel carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="4000">
+                            <div>
+                                <img src="./images/tercera-seccion/carousel1.jpeg" class="d-block" alt="...">
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="4000">
+                            <div>
+                                <img src="./images/tercera-seccion/carousel2.jpg" class="d-block" alt="...">
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="4000">
+                            <div>
+                                <img src="./images/tercera-seccion/carousel3.jpg" class="d-block" alt="...">
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="4000">
+                            <img src="./images/tercera-seccion/woman-barber-chair-hairdressing-chair-black.jpg" class="d-block" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article id="tercera" class="cuarta-seccion">
+            <h2 class="cuarta-seccion-titulo">Servicios</h2>
+            <p class="cuarta-seccion-info-1">Somos expertos en resaltar la importancia de un mensaje.</p>
+            <div class="cuarta-seccion-info-2">
+                <div class="cuarta-seccion-info-2-1">
+                    <h3>Nuestros Servicios</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum consequatur rerum velit laudantium ipsam! Explicabo placeat qui, exercitationem vel enim maiores atque fuga ea maxime recusandae iste. Iure, tempora minima.</p>
+                    <a href="">Agendar</a>
+                </div>
+                <div class="cuarta-seccion-info-servicios">
+                    <div>
+                        <h3>Microservicio</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad beatae veniam delectus accusantium iste.</p>
+                        <p>$1,200.00</p>
+                    </div>
+                    <div>
+                        <h3>Microservicio</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad beatae veniam delectus accusantium iste.</p>
+                        <p>$1,200.00</p>
+                    </div>
+                    <div>
+                        <h3>Microservicio</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad beatae veniam delectus accusantium iste.</p>
+                        <p>$1,200.00</p>
+                    </div>
+                    <div>
+                        <h3>Microservicio</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad beatae veniam delectus accusantium iste.</p>
+                        <p>$1,200.00</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article id="cuarta" class="quinta-seccion">
+            <div class="quinta-seccion-contendor-boton">
+                <button class="boton-acomodar" onclick="acomodar()">Acomodar</button>
+                <button class="boton-desacomodar" onclick="desordenar()">Desordenar</button>
+            </div>
+            <div class="quinta-seccion-imagenes">
+                <img class="quinta-seccion-img-1" src="./images/quinta-seccion/1.png" alt="">
+                <img class="quinta-seccion-img-2" src="./images/quinta-seccion/2.png" alt="">
+                <img class="quinta-seccion-img-3" src="./images/quinta-seccion/3.png" alt="">
+            </div>
+        </article>
+
+        <article id="quinta" class="formulario">
+            <h3>Agenda una cita</h3>
+            <p class="texto-formulario">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus lacus viverra nec.</p>
+            <form method="post" action="formulario.php">
+                <div class="nombre-form" >
+                    <h4>Nombre</h4>
+                    <input class="input-largo" type="text" name="nombre">
+                </div>
+                <div class="mail-form" >
+                    <h4>Mail</h4>
+                    <input class="input-largo" type="email" name="correo">
+                </div>
+                <div class="telefono-form">
+                    <h4>Teléfono de contacto</h4>
+                    <input  class="input-largo" type="text" name="telefono" >
+                </div>
+                <div class="fecha-form">
+                    <h4>Fecha</h4>
+                    <input class="input-corto input-fecha" type="date" name="fecha" 
+                    value="0000-00-00"
+                    min="2021-01-01" max="2050-12-31"
+                    step="1">
+                </div>
+                <div class="hora-form">
+                    <h4>Hora</h4>
+                    <select class="input-corto input-hora"  name="hora" >
+                        <option value="No Seleccionaron" selected>Seleccionar</option>
+                        <option name="hora" value="11 am">11:00am</option>
+                        <option name="hora" value="12 pm">12:00pm</option>
+                        <option name="hora" value="1 pm">01:00pm</option>
+                        <option name="hora" value="2 pm">02:00pm</option>
+                        <option name="hora" value="3 pm">03:00pm</option>
+                        <option name="hora" value="4 pm">04:00pm</option>
+                        <option name="hora" value="5 pm">05:00pm</option>
+                        <option name="hora" value="6 pm">06:00pm</option>
+                    </select>
+                </div>
+                <div class="mensaje-form" >
+                    <h4>Mensaje</h4>
+                    <textarea class="mensaje-formulario" name="descripcion" rows="5"></textarea>
+                </div>
+                <div class="contenedor-boton-enviar">
+                    <input class="boton-enviar" type="submit" value="Enviar">
+                </div>
+            </form>
+        </article>
+        <article class="pluggins-extra">
+            <iframe class="pluggins-mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60310.68555441517!2d-96.1751548994873!3d19.13317841009763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c343a5736c7495%3A0xc858906eeca5fa20!2sAeropuerto%20Internacional%20de%20Veracruz!5e0!3m2!1ses-419!2smx!4v1622954424141!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div>
+        </article>
+    </section>
+<br><br>
+<footer>
+    <div class="footer-raul-acosta">
+        <p class="mi-nombre-footer">Raúl Acosta 2021</p>
+        <a class="logo-twitter-footer" target="_blank" href="https://twitter.com/raul_acosta95" ><img src="./images/footer/Twitter.png"></a>
+        <a class="logo-linkedin-footer" target="_blank" href="https://www.linkedin.com/in/raulacostaservicio/" ><img src="./images/footer/linkedin.png"></a>
+    </div>
+</footer>
+<script src="./js/despliegue-menu-movile.js"></script>
+<!-- Gsap -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+<script src="./js/animacion1.js"></script>
+<script src="./js/interseccion-observer.js"></script>
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+</body>
+</html>

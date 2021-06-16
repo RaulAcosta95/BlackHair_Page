@@ -1,0 +1,11 @@
+.pluggins-extra{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.pluggins-mapa, .fb-page{
+    width: 300px;
+    height: 500px;
+}

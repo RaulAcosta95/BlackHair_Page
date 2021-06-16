@@ -1,0 +1,55 @@
+.quinta-seccion-img-1{
+    float: left;
+}
+.quinta-seccion-contendor-boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.quinta-seccion-contendor-boton button{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #070707;
+    border-radius: 6px;
+    border: 2px solid #666666;
+    transition: 0.5s;
+}
+.quinta-seccion-contendor-boton button:hover{
+    -webkit-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75);
+}
+.quinta-seccion-imagenes{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media (min-width: 768px){
+    .quinta-seccion-img-1{
+        width: 30%;
+    }
+    .quinta-seccion-img-2{
+        width: 30%;
+    }
+    .quinta-seccion-img-3{
+        width: 60%;
+    }
+}
+@media (min-width: 0px) and (max-width: 768px){
+
+    .quinta-seccion-img-1{
+        width: 50%;
+    }
+    .quinta-seccion-img-2{
+        width: 50%;
+    }
+    .quinta-seccion-img-3{
+        width: 100%;
+    }
+
+}

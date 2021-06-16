@@ -1,0 +1,11 @@
+.primera-seccion{
+    z-index: 1;
+}
+.carrusel-imagenes-1 img{
+    z-index: 1;
+    width: 100vw;
+    max-height: 550px;
+}
+.container-fluid, .row, .col-sm-12,.carousel, .slide, .carousel-fade, .carousel-inner,.carousel-item, .active ,.carousel-control-prev, .carousel-control-prev-icon,.visually-hidden{
+    z-index: 1;
+}

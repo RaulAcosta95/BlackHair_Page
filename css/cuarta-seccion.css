@@ -1,0 +1,91 @@
+.cuarta-seccion{
+    margin-top: 30px;
+}
+.cuarta-seccion-titulo{
+    text-align: center;
+    font-weight:bolder;
+
+}
+.cuarta-seccion-info-1{
+    font-size: 25px;
+    text-align: center;
+}
+.cuarta-seccion-info-2-1{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cuarta-seccion-info-2-1 h3{
+    font-weight: bold;
+}
+.cuarta-seccion-info-2-1 p{
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.cuarta-seccion-info-2-1 a{
+    background-color: rgb(9, 5, 5);
+    font-size: 30px;
+    color: #ffffff;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px 18px 18px 18px;
+    -moz-border-radius: 18px 18px 18px 18px;
+    -webkit-border-radius: 18px 18px 18px 18px;
+    border: 0px solid #000000;
+    text-decoration: none;
+    -webkit-box-shadow: 6px 5px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 5px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 6px 5px 5px 0px rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
+.cuarta-seccion-info-2-1 a:hover{
+    background-color: rgb(242, 242, 245);
+    color: rgb(10, 10, 9);
+    font-weight: bolder;
+}
+.cuarta-seccion-info-servicios{
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(58, 57, 57);
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.cuarta-seccion-info-servicios div{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cuarta-seccion-info-servicios h3{
+    text-align: center;
+    width: 100%;
+}
+.cuarta-seccion-info-servicios p{
+    width: 80%;
+    text-align: justify;
+}
+@media (min-width: 768px){
+    .cuarta-seccion-info-2{
+        display: flex;
+        align-items:center;
+        justify-content: space-around;
+    }
+    .cuarta-seccion-info-2-1{
+        width: 30vw;
+    }
+    .cuarta-seccion-info-servicios{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 60vw;
+    }
+
+}
+@media (min-width: 0px) and (max-width: 768px){
+    
+}

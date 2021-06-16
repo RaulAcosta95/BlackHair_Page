@@ -1,0 +1,41 @@
+
+
+
+@media (min-width: 768px){
+    .menu-desktop{
+        display: block;
+    }
+    .menu-desktop{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(245, 245, 244);
+        height: 50px;
+        width: 100%;
+    }
+    .menu-desktop-seccion-logo{
+        margin-left: 5%;
+    }
+    .menu-desktop-seccion-enlaces{
+        margin-right: 5%;
+    }
+    .menu-desktop-seccion-enlaces a{
+        margin-left: 20px;
+        margin-right: 20px;
+        text-decoration: none;
+        color: rgb(143, 143, 143);
+        font-size: 20px;
+        font-weight:bolder;
+        transition: 0.7s;
+    }
+    .menu-desktop-seccion-enlaces a:hover{
+        color: black;
+        transition: 0.7s;
+    
+    }
+}
+@media (min-width: 0px) and (max-width: 768px){
+    .menu-desktop{
+        display: none;
+    }
+}
